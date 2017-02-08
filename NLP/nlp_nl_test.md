@@ -3,7 +3,7 @@
 ## Sentiment Analysis
 Create a sentiment analysis application in an environment by choice.
 The goal of this sentiment analysis is to predict the sentiment of an unseen sentence (positive/negative) 
-To achieve this, you've to create a own corpus which contains user reviews by **coolBlue**.
+To achieve this, you've to create your own corpus which contains user reviews by **coolBlue**.
 
 ### part 1: webscraping - Corpus
 The goal of a corpus is to have a +/- reliable document which contains reviews and their respectively values.
@@ -15,7 +15,7 @@ Therefor the first task is to scrape positive and negative articles from **coolB
  - <sub><sup>Ignore 3 star reviews</sup></sub>
  
 #### Start - [https://www.coolblue.be/](https://www.coolblue.be/) 
-On this webpage of CoolBlue, you see (on the left side of the page) 13 Categories. As soon as you hover over one of these categories, multiple subcategories will pop-up.
+On the webpage of CoolBlue, you see (on the left side of the page) 13 Categories. As soon as you hover over one of these categories, multiple subcategories will pop-up.
 
 Your task is, to scrape **random** user reviews over **all** these subcategories, until you have a descent amount of reviews.
 As mentioned before, all the *3 star reviews* can be ignored.
@@ -26,12 +26,13 @@ If you're crawling to the product**s** overview page, you'll notice that most of
 ![](images/img1.png)
 
 As soon as you click or crawl on those *urls*, you'll notice that you'll receive the review page whereby you can select the 1 2 4 5 star reviews
+
 ![](images/img2.png)
 
  
 #### Scraper goals: 
 - [ ] Crawl from the main page to all the product review pages
-- [ ] Scrape all the 1 2 4 5-star reviews
+- [ ] Scrape 1 2 4 5-star reviews
 
 #### Questions:
 - [ ] What is the effect of using differen / random categories and subjects?
@@ -51,7 +52,7 @@ Create a chatbot which can answer FAQ questions from **TripAdvisor**.
 Create a webscraper which scrapes all the *main* questions and answers from TripAdvisor.
 
 #### Start - [https://www.tripadvisorsupport.com/hc/nl](https://www.tripadvisorsupport.com/hc/nl)
-On this webpage of TripAdvisor, you see 4 different categories : 
+On the webpage of TripAdvisor, you see 4 different categories : 
 - **Richtlijnen**
 - **Websitefuncties**
 - **Community**
