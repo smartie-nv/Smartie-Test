@@ -43,7 +43,8 @@ Given your self made corpus, create a small sentiment analysis application which
 
 
 ## Sentence Analysis
-Decompose sentences, how would you do it / program it. demo
+Decompose sentences, how would you do it / program it.
+demo
 
 ## Chatbot
 Create a chatbot which can answer FAQ questions from **TripAdvisor**.
