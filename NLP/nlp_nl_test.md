@@ -47,7 +47,7 @@ Whereby each subcategory contains multiple questions :
 - [ ] Can it handle small type-errors / Fuzzy mapping?
 - [ ] Does it return **Ik heb je niet goed begrepen** when the chatbot isn't sure about the answer?
 
-### part 2: Possible questions
+### part 3: Possible questions
 ##### (not required to implement)
 - [ ] How would you teach the bot, new questions and what can go wrong?
 - [ ] How would you optimize your bot?
