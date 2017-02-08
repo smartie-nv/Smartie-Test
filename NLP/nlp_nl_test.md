@@ -1,6 +1,9 @@
 # Project
 
 ## Sentiment Analysis
+Create a sentiment analysis via a corpus which is created by **coolBlue**
+
+
 
 
 ## Sentence Analysis
@@ -36,14 +39,16 @@ Whereby each subcategory contains multiple questions :
 - [ ] Scrape all the underlying questions.
 - [ ] Scrape the first paragraph of each answer.
 
+### part 2: Chatbot
 
-#### Chatbot Goals
+#### Goals
 
 - [ ] Create a chatbot which answers the questions of an user.
 - [ ] Can it handle small type-errors / Fuzzy mapping?
 - [ ] Does it return **Ik heb je niet goed begrepen** when the chatbot isn't sure about the answer?
 
-##### Possible questions (not required to implement)
+### part 2: Possible questions
+##### (not required to implement)
 - [ ] How would you teach the bot, new questions and what can go wrong?
 - [ ] How would you optimize your bot?
 - [ ] If you had more time and had no restrictions, how would you handle the case?
@@ -54,7 +59,4 @@ Whereby each subcategory contains multiple questions :
 
 <sub><sup>Do not hesitate to ask for help if you're stuck, after all we might become colleagues :)</sup></sub>
 
-<sub><sup><sub><sup>Do not hesitate to ask for help if you're stuck, after all we might become colleagues :)</sup></sub></sup></sub>
-
-<sub><sup><sub><sup><sub><sup><sub><sup><sub><sup><sub><sup><sub><sup><sub><sup>Do not hesitate to ask for help if you're stuck, after all we might become colleagues :)</sup></sub></sup></sub></sup></sub></sup></sub></sup></sub></sup></sub></sup></sub></sup></sub>
 
