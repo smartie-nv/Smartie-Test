@@ -17,24 +17,21 @@ Therefore the first task is to scrape positive and negative reviews from **Tweak
  
 #### Start - [https://tweakers.net/](https://tweakers.net/pricewatch/) 
 ![](images/pricewatch.png)
-On the webpage of Tweakers (pricewatch), you see (on the left side of the page) 13 Categories. As soon as you hover over one of these categories, multiple subcategories will appear.
+On the webpage of Tweakers (pricewatch), you see (on the middle the page) 9 Categories. Whereby some categories might contain subcategories (Componenten en randapparatuur).
 
-Your task is to scrape **random** user reviews over **all** these subcategories, until you have a decent amount of reviews.
+Your task is to scrape **random** reviews over **all** these subcategories, until you have a decent amount of reviews.
 As mentioned before, all the *3 star reviews* can be ignored.
 
-**Pro-tip** 
+### Restrictions
+Not every product contains reviews
+Not every product will contain Positive or Negative reviews
 
-If you're crawling to the product**s** overview page, you'll notice that most of the products contain a rating (see image)
-![](images/img1.png)
-
-As soon as you click or crawl on those *urls*, you'll notice that you receive the review page where you can select the 1 2 4 5 star reviews
-
-![](images/img2.png)
-
+### Requirements
+We only want to use, reviews with **more** then 34 words
  
 #### Scraper goals: 
 - [ ] Crawl from the main page to all the product review pages
-- [ ] Scrape 1 2 4 5-star reviews
+- [ ] Scrape 1 2 4 5-star reviews*
 
 #### Questions:
 - [ ] What is the effect of using different / random categories and subjects?
