@@ -16,7 +16,7 @@ Therefore the first task is to scrape positive and negative reviews from **Tweak
  - <sub><sup>Ignore 3 star reviews</sup></sub>
  
 #### Start - [https://tweakers.net/](https://tweakers.net/pricewatch/) 
-![](images/pricewatch.png.png)
+![](images/pricewatch.png)
 On the webpage of Tweakers (pricewatch), you see (on the left side of the page) 13 Categories. As soon as you hover over one of these categories, multiple subcategories will appear.
 
 Your task is to scrape **random** user reviews over **all** these subcategories, until you have a decent amount of reviews.
