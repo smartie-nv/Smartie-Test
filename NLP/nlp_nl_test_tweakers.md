@@ -7,7 +7,7 @@ The goal of this sentiment analysis is to predict the sentiment of an unseen sen
 To achieve this, you have to create your own corpus which contains user reviews by **Tweakers**.
 
 ### part 1: webscraping - Corpus
-The goal of a corpus is to have a fairly reliable document which contains reviews and their respective values.
+The goal of a corpus is to have a fairly reliable document which contains reviews and their respective scores.
 We assume that *low*-scored reviews contain more *negative* words than *highly*-scored reviews (and vice versa).
 Therefore the first task is to scrape positive and negative reviews from **Tweakers.net**
 
@@ -17,17 +17,21 @@ Therefore the first task is to scrape positive and negative reviews from **Tweak
  
 #### Start - [https://tweakers.net/](https://tweakers.net/pricewatch/) 
 ![](images/pricewatch.png)
-On the webpage of Tweakers (pricewatch), you see (on the middle the page) 9 Categories. Whereby some categories might contain subcategories (Componenten en randapparatuur).
+On the webpage of Tweakers (pricewatch), you see 9 Categories and these can contain subcategories (Componenten en randapparatuur).
 
 Your task is to scrape **random** reviews over **all** these subcategories, until you have a decent amount of reviews.
-As mentioned before, all the *3 star reviews* can be ignored.
 
 ### Restrictions
-Not every product contains reviews
-Not every product will contain Positive or Negative reviews
+![](images/reviews.tiff)
+Not every product contains reviews.
+Not every product will contain Positive or Negative reviews.
+Ignore the reviews with 3 star ratings.
 
-### Requirements
-We only want to use, reviews with **more** then 34 words
+(images/customer_review.tiff)
+Ignore the pros and cons of the product.
+Only use the text from the user review (emphasized by the rectangle).
+We only want to use reviews with **at least** 19 words.
+
  
 #### Scraper goals: 
 - [ ] Crawl from the main page to all the product review pages
@@ -41,7 +45,7 @@ We only want to use, reviews with **more** then 34 words
 Given your selfmade corpus, create a small sentiment analysis application which can analyse/classify unseen sentences and reviews.
 
 
-## Sentence Analysis
+## IBM Watson Explorer trivia
 This part is more conceptual. Essential in NLP is correctly identifying the words and their context. How would you approach this ?
  - Decomposition of sentences
  - Stemming of the words
