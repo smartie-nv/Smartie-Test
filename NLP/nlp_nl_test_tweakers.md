@@ -45,8 +45,15 @@ Given your selfmade corpus, create a small sentiment analysis application which 
 
 ## IBM Watson Explorer trivia
 
- - 
+ - Given this seed URL for Sharepoint 2010 server : "https://www.domain.com/managed_path/page_name". </br>
+ Which Sharepoint connector do you need to use and what settings do you need to configure to make this work properly?
 
+ - What is the difference between the following concepts ? </br>
+ Watson Enterprise Edition and Watson Foundational Components ? </br>
+ Watson Advanced Edition and Watson Analytical Components ?
+ 
+ - What's your opinion of IBM Watson Explorer ? Foundational Components vs Analytical Components ?
+ 
 ## Chatbot
 Create a chatbot which can answer FAQ questions from **TripAdvisor**.
 
