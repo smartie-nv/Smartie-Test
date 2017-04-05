@@ -22,15 +22,13 @@ On the webpage of Tweakers (pricewatch), you see 9 Categories and these can cont
 Your task is to scrape **random** reviews over **all** these subcategories, until you have a decent amount of reviews.
 
 ### Restrictions
-![](images/reviews.tiff)
-Not every product contains reviews.
-Not every product will contain Positive or Negative reviews.
-Ignore the reviews with 3 star ratings.
-
-(images/customer_review.tiff)
-Ignore the pros and cons of the product.
-Only use the text from the user review (emphasized by the rectangle).
-We only want to use reviews with **at least** 19 words.
+![](images/customer_review.png)
+ - Not every product contains reviews.
+ - Not every product will contain Positive or Negative reviews.
+ - Ignore the reviews with 3 star ratings.
+ - Ignore the pros and cons of the product.
+ - Only use the text from the user review (emphasized by the rectangle).
+ - We only want to use reviews with **more than** 19 words.
 
  
 #### Scraper goals: 
@@ -46,10 +44,8 @@ Given your selfmade corpus, create a small sentiment analysis application which 
 
 
 ## IBM Watson Explorer trivia
-This part is more conceptual. Essential in NLP is correctly identifying the words and their context. How would you approach this ?
- - Decomposition of sentences
- - Stemming of the words
-How would you approach these challenges and convert them into a programming logic ?
+
+ - 
 
 ## Chatbot
 Create a chatbot which can answer FAQ questions from **TripAdvisor**.
