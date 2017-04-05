@@ -4,19 +4,20 @@ The goal of this project is to assess your skills in different topics that can b
 ## Sentiment Analysis
 Create a sentiment analysis application in your environment of choice.
 The goal of this sentiment analysis is to predict the sentiment of an unseen sentence (positive - negative) 
-To achieve this, you have to create your own corpus which contains user reviews by **coolBlue**.
+To achieve this, you have to create your own corpus which contains user reviews by **Tweakers**.
 
 ### part 1: webscraping - Corpus
 The goal of a corpus is to have a fairly reliable document which contains reviews and their respective values.
 We assume that *low*-scored reviews contain more *negative* words than *highly*-scored reviews (and vice versa).
-Therefore the first task is to scrape positive and negative articles from **coolBlue**
+Therefore the first task is to scrape positive and negative reviews from **Tweakers.net**
 
  - Positive = 4 & 5 stars
  - Negative = 1 & 2 stars
  - <sub><sup>Ignore 3 star reviews</sup></sub>
  
-#### Start - [https://www.coolblue.be/](https://www.coolblue.be/) 
-On the webpage of CoolBlue, you see (on the left side of the page) 13 Categories. As soon as you hover over one of these categories, multiple subcategories will appear.
+#### Start - [https://tweakers.net/](https://tweakers.net/pricewatch/) 
+![](images/pricewatch.png.png)
+On the webpage of Tweakers (pricewatch), you see (on the left side of the page) 13 Categories. As soon as you hover over one of these categories, multiple subcategories will appear.
 
 Your task is to scrape **random** user reviews over **all** these subcategories, until you have a decent amount of reviews.
 As mentioned before, all the *3 star reviews* can be ignored.
