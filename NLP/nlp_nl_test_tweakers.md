@@ -43,17 +43,12 @@ Your task is to scrape **random** reviews over **all** these subcategories, unti
 Given your selfmade corpus, create a small sentiment analysis application which can analyse/classify unseen sentences and reviews.
 
 
-## IBM Watson Explorer trivia
+## Sentence Analysis
+This part is more conceptual. Essential in NLP is correctly identifying the words and their context. How would you approach this ?
+ - Decomposition of sentences
+ - Stemming of the words
+How would you approach these challenges and convert them into a programming logic ?
 
- - Given this seed URL for Sharepoint 2010 server : "https://www.domain.com/managed_path/page_name". </br>
- Which Sharepoint connector do you need to use and what settings do you need to configure to make this work properly?
-
- - What is the difference between the following concepts ? </br>
- Watson Enterprise Edition and Watson Foundational Components ? </br>
- Watson Advanced Edition and Watson Analytical Components ?
- 
- - What's your opinion of IBM Watson Explorer ? Foundational Components vs Analytical Components ?
- 
 ## Chatbot
 Create a chatbot which can answer FAQ questions from **TripAdvisor**.
 
