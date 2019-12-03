@@ -18,6 +18,3 @@ Guidelines for the test :
 
 
 Thank you for your interest in Valion and good luck with the assignment !
-
-
-![](http://cdn2-www.comingsoon.net/assets/uploads/gallery/the-x-files-ew-photos/key-art-4-hand.jpg)
