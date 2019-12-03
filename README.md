@@ -1,7 +1,7 @@
-# Smartie-Test
+# Valion Assessment
 
 Welcome to our test repository!
-It contains our tests for all the Data-Enthusiasts and believers who are motivated to join the Smartie team.
+It contains our tests for all the Data-Enthusiasts and believers who are motivated to join the Valion team.
 
 You will see three folders that represent different tests made by our team members.
 It's a good way to get to know our team in a technical way and show us your potential value to the team.
@@ -17,7 +17,7 @@ Guidelines for the test :
 - [ ] **Don't forget to have fun while doing the assignment. If you enjoy your job, you will excel and provide quality work !**
 
 
-Thank you for your interest in Smartie and good luck with the assignment !
+Thank you for your interest in Valion and good luck with the assignment !
 
 
 ![](http://cdn2-www.comingsoon.net/assets/uploads/gallery/the-x-files-ew-photos/key-art-4-hand.jpg)
